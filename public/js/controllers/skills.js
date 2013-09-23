@@ -1,3 +1,3 @@
-function SkillsController($scope) {
-
+function SkillsController($scope, Skills) {
+    $scope.skills = Skills.get();
 }
