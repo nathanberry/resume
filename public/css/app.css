@@ -10,3 +10,8 @@ a {
 .resume-nav-header {
     font-weight: bold;
 }
+
+.navbar-user-image {
+    padding-top: 10px;
+    padding-right: 10px
+}
