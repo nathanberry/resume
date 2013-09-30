@@ -9,10 +9,10 @@ app.get('/api/skills', function (req, res) {
             {name: 'XML'}
         ],
         Platforms: [
-            {name: 'ASP.NET MVC 4'},
+            {name: 'ASP.NET MVC'},
             {name: 'Java EE'},
             {name: 'Node.js'},
-            {name: 'Angular'}
+            {name: 'AngularJS'}
         ],
         Libraries: [
             {name: 'NUnit'},
@@ -24,12 +24,12 @@ app.get('/api/skills', function (req, res) {
             {name: 'Mongoose (Node)'}
         ],
         Methodologies: [
-            {name: 'Agile (SCRUM and XP)'},
+            {name: 'Agile (Scrum and XP)'},
             {name: 'Test Driven Development'},
             {name: 'Pair Programming'}
         ],
         SCMs: [
-            {name: 'Git'},
+            {name: 'Git (BitBucket, GitHub)'},
             {name: 'Subversion'},
             {name: 'CVS'},
             {name: 'Mercurial'}
@@ -47,8 +47,10 @@ app.get('/api/skills', function (req, res) {
             {name: 'NetBeans'},
             {name: 'VersionOne'},
             {name: 'Jenkins CI'},
+            {name: 'Gerrit Code Review'},
+            {name: 'Trello'},
             {name: 'Bamboo CI'},
-            {name: 'Gerrit Code Review'}
+            {name: 'Travis CI'}
         ]
     };
 
