@@ -15,3 +15,27 @@ a {
     padding-top: 10px;
     padding-right: 10px
 }
+
+div.comma-list {
+    margin-bottom: 10px;
+}
+
+.comma-list-header {
+}
+
+.comma-list {
+    display: inline;
+    list-style: none;
+}
+
+.comma-list li {
+    display: inline;
+}
+
+.comma-list li:before {
+    content: ", ";
+}
+
+.comma-list li:first-child:before {
+    content: "";
+}

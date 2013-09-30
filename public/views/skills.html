@@ -1,6 +1,42 @@
-<h4>Technical Skills</h4>
-
-<h5>Languages</h5>
-<ul>
-    <li ng-repeat="language in skills.Languages">{{language.name}}</li>
-</ul>
+<div class="comma-list">
+    <h4 class="comma-list-header">Languages</h4>
+    <ul class="comma-list">
+        <li ng-repeat="language in skills.Languages">{{language.name}}</li>
+    </ul>
+</div>
+<div>
+    <h4 class="comma-list-header">Platforms</h4>
+    <ul class="comma-list">
+        <li ng-repeat="platform in skills.Platforms">{{platform.name}}</li>
+    </ul>
+</div>
+<div>
+    <h4 class="comma-list-header">Libraries</h4>
+    <ul class="comma-list">
+        <li ng-repeat="library in skills.Libraries">{{library.name}}</li>
+    </ul>
+</div>
+<div>
+    <h4 class="comma-list-header">Methodologies</h4>
+    <ul class="comma-list">
+        <li ng-repeat="methodology in skills.Methodologies">{{methodology.name}}</li>
+    </ul>
+</div>
+<div>
+    <h4 class="comma-list-header">Source Control</h4>
+    <ul class="comma-list">
+        <li ng-repeat="scm in skills.SCMs">{{scm.name}}</li>
+    </ul>
+</div>
+<div>
+    <h4 class="comma-list-header">Databases</h4>
+    <ul class="comma-list">
+        <li ng-repeat="db in skills.Databases">{{db.name}}</li>
+    </ul>
+</div>
+<div>
+    <h4 class="comma-list-header">Tools</h4>
+    <ul class="comma-list">
+        <li ng-repeat="tool in skills.Tools">{{tool.name}}</li>
+    </ul>
+</div>
