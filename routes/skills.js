@@ -2,10 +2,11 @@ app.get('/api/skills', function (req, res) {
     var skills = {
         Languages: [
             {name: 'C#'},
-            {name: 'Javascript'},
-            {name: 'JSON'},
             {name: 'Java'},
+            {name: 'Javascript'},
             {name: 'HTML'},
+            {name: 'CSS'},
+            {name: 'JSON'},
             {name: 'XML'}
         ],
         Platforms: [
@@ -21,7 +22,8 @@ app.get('/api/skills', function (req, res) {
             {name: 'Guice DI'},
             {name: 'Express (Node)'},
             {name: 'Mocha Test (Node)'},
-            {name: 'Mongoose (Node)'}
+            {name: 'Mongoose (Node)'},
+            {name: 'Sequelize (Node)'}
         ],
         Methodologies: [
             {name: 'Agile (Scrum and XP)'},

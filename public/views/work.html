@@ -1,1 +1,13 @@
 <h4>Work History</h4>
+<div ng-repeat="workExperience in work.items">
+    <div>
+        <span style="font-weight: bold">{{workExperience.company}}</span>
+        <span> - </span>
+        <span>{{workExperience.location}}</span>
+        <span style="float: right">{{workExperience.from}}</span>
+    </div>
+    <div style="clear: both">{{workExperience.title}}</div>
+    <ul>
+        <li ng-repeat="highlight in workExperience.highlights">{{highlight}}</li>
+    </ul>
+</div>

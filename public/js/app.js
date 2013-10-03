@@ -1,4 +1,4 @@
-var resume = angular.module('resume', ['resume.skillsService']);
+var resume = angular.module('resume', ['resume.skillsService', 'resume.workService']);
 
 resume.config(['$routeProvider', function ($routerProvider) {
     $routerProvider
